@@ -1,0 +1,179 @@
+/*
+theme name: SystemCode
+version: Beta 1.2
+Author: Hadi Abedzadeh
+Author URI: http://systemcode.ir
+Desctiption: 
+*/
+@font-face {
+  font-family: iranSans;
+  src: url('assets/fonts/iransans.woff');
+}
+
+* {
+  font-family: iranSans;
+}
+
+.me {
+  color: #009688;
+}
+
+body {
+  background: url('assets/img/back.jpg') !important;
+
+}
+
+.header {
+  height: 500px;
+  background: url('assets/img/desktop.jpg');
+}
+
+.aTag {
+  color: #FFF;
+}
+
+.title-head {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 80px;
+  color: #FFF !important;
+  text-decoration: none;
+}
+
+.description {
+  font-size: 120%;
+  color: #FFF;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  top: 180px;
+  width: 100%;
+  line-height: 42px;
+  text-align: center;
+}
+
+.posts {
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;;
+  border-radius: 4px !important;;
+}
+
+.subject {
+  text-align: right;
+}
+
+.date {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: #54BAC3;
+  color: #FFF;
+  border: 2px solid #FFF;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: -100px;
+}
+
+.spDate {
+  font-size: 130%;
+  position: relative;
+  top: 35px;
+
+}
+
+.content {
+}
+
+.single p {
+  font-size: 100% !important;
+}
+
+.comments-area {
+  border-radius: 10px;
+  box-shadow: 0 0 3px black;
+  background: #FFF;
+  padding: 10px
+}
+
+.subfooter {
+  background: #40BBC5;
+  min-height: 70px;
+  text-decoration: none;
+  color: #FFF;
+  vertical-align: middle;
+
+}
+
+.subfooter a {
+  color: #FFF;
+}
+
+.img a img {
+  width: 100%;
+  height: 400px;
+}
+
+/***
+User Profile Sidebar by @keenthemes
+A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+Licensed under MIT
+***/
+.profile-sidebar {
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  -webkit-border-radius: 80% !important;
+  -moz-border-radius: 80% !important;
+  border-radius: 80% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+
+.cat-item, .page_item ,.recentcomments{
+  line-height: 2;
+}
+
+.comment-author-link{
+  padding: 2px;
+
+}
+/**********************/
+
+
+.cat-item:hover, .page_item:hover {
+  color: #5b9bd1;
+  background: rgba(84, 186, 195, 0.1);
+  padding-right: 3px;
+  border-radius: 3px;
+  transition-delay: 0.1s;
+
+}
+
