@@ -9,9 +9,9 @@
           the_post();
           ?>
           <div class="posts jumbotron">
-            <div class="img">
+            <div class="img"><a>
               <? if ( has_post_thumbnail() ) { the_post_thumbnail('full', array('title' => get_the_title(), 'alt' => get_the_title(),'width'=> '1000px'));}else{echo "<img src=".get_bloginfo( 'stylesheet_directory' ). '\assets\img\default.png'.">"; } ?>
-            </div>
+            </a></div>
             <div>
               <div class="pull-right date">
                 <span class="spDate"><?= get_the_date('Y/m/d')?></span>
