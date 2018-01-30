@@ -1,0 +1,164 @@
+/*
+theme name: Hamed
+version: 1
+Author: Hadi Abedzadeh
+Author URI: http://systemcode.ir
+Desctiption: 
+*/
+
+
+@font-face {
+  font-family: 'BYekan';
+		src: url('assets/fonts/BYekan-webfont.eot') format('eot'),
+		url('assets/fonts/BYekan-webfont.woff') format('woff'),
+		url('assets/fonts/BYekan-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+}
+
+* {
+  font-family: 'BYekan';
+}
+
+.nav > li {
+  display: inline-block !important;
+}
+
+.fa-android, .fa-mobile {
+  font-size: 35pt;
+  color: #00b500;
+}
+
+.fa-apple {
+  font-size: 35pt;
+  color: #FFF;
+}
+
+.btn {
+  background: #000;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  width: 180px;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 3px 0 #000;
+  background: #00000087;
+}
+
+.text-btn {
+  margin: 12px;
+  color: #FFF;
+}
+
+.middletext {
+  font-size: 18pt;
+  color: #FFF;
+}
+
+.ulpallet {
+  list-style-type: none!important;
+  padding: 0;
+  margin: 0;
+}
+
+
+.lipallet {
+  margin: 20px 0!important;
+}
+
+.top-li {
+  padding-top: 100px;
+}
+
+.text-padding {
+  padding: 5px 30px;
+}
+
+header {
+  height: 100vh;
+  background: url('assets/img/tohid.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        /* filter:sepia(100%); */
+  border-bottom: 4px solid #DDD;
+}
+
+.headerText {
+  color: #FFF;
+  font-size: 30pt;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.box {
+}
+
+.box:hover {
+  //background: #f3f3f3;
+  //box-shadow: 0 0 1px 0 black;
+  border-radius: 4px;
+}
+
+.navTextHover {
+  margin-top: 5px;
+  border-left: 1px solid #DDE;
+}
+
+.navTextHover:hover {
+  background: #EEE !important;
+}
+
+.heightBox {
+  background: #FFF;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 5px 9px 0px #ddd;
+}
+
+.heightBox:hover {
+  box-shadow: 0px 5px 2px 0px #ddd;
+}
+
+.backImg {
+  background: url('assets/img/back.jpg') fixed;
+  background-repeat: no-repeat;
+  height: 250px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+}
+
+.svgSize {
+  width: 100px;
+  filter: grayscale(40%);
+}
+
+.svgSize:hover {
+  filter: grayscale(0%);
+}
+
+.fa-heart-o {
+  color: red;
+}
+
+.footerIcon {
+  margin: 10px;
+  color: #b0bcc8;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+ul, li {
+  list-style-type: none;
+}
